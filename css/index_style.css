@@ -354,7 +354,128 @@ fotor
 }
 
 
+/*---------------- start submit page-------*/
+p{
+color:
+}
+.paragph{
+    font-size: 14px;
+}
+.container{
+   
+}
+.submission{
+ background-color:#f4f7f6;
+}
+.sub{
+    font-size: 70px;
+    font-weight: 900;
+}
+.data{
+    background-color: #FFF;
+    height: 600px;
+    
+}
+.button{
+    background-color: #42AB9E;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+}
+.register{
+    background-color:#f4f7f6;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.gallery{
+    position: ;
+}
 
+/*      .... nav bar */
+
+
+
+
+.MyNav
+{
+    background-color: rgba(0,0,0,0.9);
+    height: 56px;
+}
+
+.mylogo
+{
+   position: absolute;
+    left: 50%;
+}
+
+.navIcon
+{
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    border-left: 2px solid #fff ;
+    margin-left: 5px;
+}
+
+.logoWord
+{
+    color: crimson;
+}
+.toogle-menu{
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 12 15 12 12 ;
+    color:white;
+    cursor: pointer;
+    z-index: 999999999;
+    font-size: 2em;
+    opacity: 0;
+}
+ 
+.sidebar_menu
+{
+    position: absolute;
+    top: 56px;
+    left:0;
+    width:20%;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+.fa-times
+{
+    right: 20px;
+    top: 20px;
+    opacity: 0.7; 
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+
+     
+}
+
+.fa-times:hover
+{
+    opacity:1 ;
+}
+/* ......nav bar end ......*/
+
+.social media ul li:hover{
+    color: #000;
+}
+
+
+/*---------end submit page -----*/
 
 
 
