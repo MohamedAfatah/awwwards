@@ -1,0 +1,523 @@
+body
+{
+font-family: 'Chilanka', cursive;
+background-color: #f4f7f6;
+
+}
+.MyNav
+{
+    background-color: rgba(0,0,0,0.9);
+    height: 56px;
+}
+
+.mylogo
+{
+   position: absolute;
+    left: 50%;
+}
+
+.navIcon
+{
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    border-left: 2px solid #fff ;
+    margin-left: 5px;
+}
+
+.logoWord
+{
+    color: crimson;
+}
+.toggle_menu
+{
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 12 15 12 12 ;
+    color:white;
+    cursor: pointer;
+    z-index: 999999999;
+    font-size: 2em;
+    opacity: 0;
+}
+ 
+.sidebar_menu
+{
+    position: absolute;
+    top: 56px;
+    left:0;
+    width:20%;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+.fa-times
+{
+    right: 20px;
+    top: 20px;
+    opacity: 0.7; 
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+
+     
+}
+
+.fa-times:hover
+{
+    opacity:1 ;
+}
+
+.boxed_item
+{
+font-family: 'Chilanka', cursive;
+    font-weight: 900;
+    padding: 10px 10px;
+    display: inline-block;
+    border: solid 2px white;
+    box-sizing: border-box;
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    margin-top: 70px;
+    
+
+}
+.boxed_item:hover
+{
+    background-color: white;
+    color: #111;
+    transition: all 0.3s ease-in-out;
+
+}
+.logo_bold
+{
+    font-weight: 500;
+    color:crimson;
+
+}
+.logo_title
+{
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.navigation_selection
+{
+    margin: 20px 0;
+    display: block;
+    width: 200px;
+    margin-left: 25px;
+    list-style: none;
+    
+}
+.navigation_item
+{
+    font-weight: 200;
+    padding: 12px 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #D8D8D8;
+    border-bottom: solid 1px #D8D8D8;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navigation_item a
+ {
+    text-decoration: none;
+    color: white;
+}
+
+
+.boxed_item_smaller
+{
+     font-size: 12px;
+     color: #d8d8d8;
+     width: 160px;
+     transition: all 0.3s ease-in-out;
+     cursor: pointer;
+     border-width: 1px;
+     margin-top: 20px;
+
+}
+.boxed_item_smaller:hover
+{
+    background-color: white;
+    color: #111;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hide_menu
+{
+    margin-left: -25%;
+}
+
+.opecity_one
+{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.home{
+    overflow: hidden;
+    background:url(../images/3.jpg);
+    background-size: cover;
+    height: 600px;
+    
+
+}
+
+
+
+
+.HeadCap
+{
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0px 5px 10px #fff;
+    position: relative;
+    top: 40%;
+}
+
+.LogoBtn
+{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    position: relative;
+    top: 250px;
+    left: 45%;
+    font-weight: 400;
+}
+
+
+
+/*********************************************/
+
+.MyCardText{
+    display: inline;
+}
+
+.MyCardBOdy
+{
+    padding-bottom: 0;
+}
+
+.mySpan
+{
+    position: absolute;
+    right: 25px;
+}
+
+.myCardAcc
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+.myBtn
+{
+    position: absolute;
+    right: 22px;
+    bottom: 20px;
+    text-decoration: none;
+    
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5 8 3 8 ;
+}
+
+..myBtn:hover
+{
+    color: white;
+        
+}
+
+
+.AccInfo
+{
+    position: absolute;
+    bottom: 20px;
+    left: 65px;
+}
+
+.Profi a
+{
+    text-decoration: none;
+}
+
+.Profi .MyBtn:hover
+{
+    background-color: slategray;
+    color: beige;
+}
+
+
+/*
+---------------------------------------------------------
+                   end of info
+---------------------------------------------------------
+*/
+
+.hire h3
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.hire p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.brand-logos i
+{
+    color: #777;
+    border: 1px solid;
+    border-color: #777;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 0px 4px;
+}
+
+.brand-logos i:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*
+------------------------------------------------------
+fotor
+
+------------------------------------------------------
+*/
+
+
+.copy
+{
+    background-color: #f5f5f5;
+}
+
+.copy-info
+{
+    display: block;
+}
+
+.copy p
+{
+    font-size: 16px;
+    font-weight: 200;
+    color: #777777;
+}
+
+.copy-info a
+{
+    text-decoration: none;
+    color: #ec3237;
+}
+
+.copy-info a:hover
+{
+    color:#ec3237;
+}
+
+
+/*---------------- start submit page-------*/
+
+.paragph{
+    font-size: 14px;
+}
+
+.submission{
+ background-color:#f4f7f6;
+}
+.sub{
+    font-size: 70px;
+    font-weight: 900;
+}
+.data{
+    background-color: #FFF;
+    height: 600px;
+    
+}
+.button{
+    background-color: #42AB9E;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+}
+.register{
+    background-color:#f4f7f6;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.gallery{
+    position: ;
+}
+
+/*      .... nav bar */
+
+
+
+
+.MyNav
+{
+    background-color: rgba(0,0,0,0.9);
+    height: 56px;
+}
+
+.mylogo
+{
+   position: absolute;
+    left: 50%;
+}
+
+.navIcon
+{
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    border-left: 2px solid #fff ;
+    margin-left: 5px;
+}
+
+.logoWord
+{
+    color: crimson;
+}
+.toogle-menu{
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 12 15 12 12 ;
+    color:white;
+    cursor: pointer;
+    z-index: 999999999;
+    font-size: 2em;
+    opacity: 0;
+}
+ 
+.sidebar_menu
+{
+    position: absolute;
+    top: 56px;
+    left:0;
+    width:20%;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+.fa-times
+{
+    right: 20px;
+    top: 20px;
+    opacity: 0.7; 
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+
+     
+}
+
+.fa-times:hover
+{
+    opacity:1 ;
+}
+/* ......nav bar end ......*/
+
+.social media ul li:hover{
+    color: #000;
+}
+
+
+/*---------end submit page -----*/
+
+
+/* --------- winners page ----*/
+
+.profile{
+    background-image: url()
+    
+}
+.person-img{
+
+}
+.skills{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+    background-size: cover;
+    position: absolute;
+   
+}
+
+.skill-overlay{
+
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.skill-data{
+    position: relative;
+    z-index: 2;
+    
+}
+#close{
+    cursor:pointer;
+    position: relative;
+    top:40px;
+    left: 20px;
+    
+}
+
+span{ 
+     color:darkred;
+     font-size:60px;
+     font-family: 'Great Vibes', cursive;
+}
+
+
